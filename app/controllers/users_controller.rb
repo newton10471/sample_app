@@ -1,3 +1,4 @@
+# mnewton test of github cloning etc 2/2/2012
 class UsersController < ApplicationController
 	before_filter :authenticate, :only => [:index, :edit, :update, :destroy]
 	before_filter :correct_user, :only => [:edit, :update]
